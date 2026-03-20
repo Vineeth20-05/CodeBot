@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Vineeth2005:$HF_TOKEN@huggingface.co/spaces/Vineeth2005/Vineeth2005/CodeBot main
+        run: git push https://Vineeth2005:$HF_TOKEN@huggingface.co/spaces/Vineeth2005/CodeBot main
